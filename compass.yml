@@ -1,0 +1,22 @@
+name: config-as-code-org-lohan
+id: ari:cloud:compass:e5d90fc6-9e30-42ef-bc54-bbadd0cb994e:component/c2d938c9-5e25-40fb-b57a-e45d1b6456ca/399de562-bed4-4d55-9842-8d3678a0ecfb
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/lohan-organization/config-as-code-org-lohan
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: 00 - Compass Webhook Enable
+    type: single_select
+    value: null
+  - name: HyperCare
+    type: single_select
+    value: null
